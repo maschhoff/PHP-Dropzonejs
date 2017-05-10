@@ -9,11 +9,11 @@ Installation
 4. Have a look at you php.ini set upload_max_filesize, post_max_size and memory_limit as you prefer
 5. Create a .htaccess file into the uploads folder containing: (this will disable php inside this folder - important for security)
 
-'''
+```
 RemoveHandler .php .phtml .php3
 RemoveType .php .phtml .php3
 php_flag engine off
-'''
+```
 
 Credits to http://www.dropzonejs.com/
 
